@@ -11,10 +11,9 @@ contract SimpleBank {
         balance[msg.sender] += msg.value;
     }
 
-    function withdrawSome(uint256 amount) external {
+    function withdraw(uint256 amount) external {
         if (amount > balance[msg.sender]) revert NotEnoughFunds();
 
-        uint256 amount = balance[msg.sender];
         (bool success, ) = payable(msg.sender).call{value: amount}("");
         if (!success) revert FailToSendETH();
 

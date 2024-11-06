@@ -1,4 +1,4 @@
-# DeFiHackLabs BootCamp - Week2 Homework Bonus
+# DeFiHackLabs BootCamp - Week6 Homework
 
 > [!WARNING]
 > DO NOT MODIFY THE `SimpleBankBase.t.sol`, `LOLS14TicketBase.t.sol`, `DAOWalletBase.t.sol`, `TokenLendBase.t.sol` FILES, OR YOU WILL GET ZERO POINTS FROM THIS CHALLENGE
